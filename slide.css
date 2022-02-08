@@ -1,0 +1,28 @@
+body {
+  padding: 10vw;
+}
+
+.imagebox {
+  transition: transform 0.9s;
+  margin-left: auto;
+}
+
+.inner {
+  float: left;
+}
+
+.inner img {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+button {
+  all: unset;
+}
+
+.buttons {
+  text-align: center;
+}

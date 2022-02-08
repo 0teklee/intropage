@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tekwoo Lee intro</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <script defer src="slide.js"></script>
+  </head>
+  <body style="background-color: #fff; color: #000000">
+    <header style="background-color: #6b6b6b4b">
+      <a class="headerLink" style="color: #000000">👨‍💻Tekwoo Lee</a>
+      <div id="right">
+        <a class="headerLink" style="color: #000000"> Table </a>
+        <a
+          class="headerLink"
+          href="#contacts"
+          onclick="contactsOn()"
+          style="color: #000000"
+        >
+          Contact</a
+        >
+        <!-- <button>view mode</button> -->
+        <a class="headerLink" style="color: #000000">View Mode</a>
+        <div class="viewMode">
+          <input type="checkbox" id="switch" />
+          <label for="switch" class="switch_label">
+            <span class="on_btn"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <img id="headerImg" src="exports/header2.jpg" />
+    <section>
+      <div id="main1">
+        <h1 id="mainTitle">Lee Tekwoo</h1>
+        <div id="introduce">
+          <img src="000014.jpg" />
+          <div id="introText">
+            <h3>Introduce</h3>
+            <p>
+              미술을 전공한 예비 개발자 이택우라고 합니다. <br />
+              작가로서 미술 작업을 이어가는 동시에, 교육 사업에 매진하며 20대를
+              보냈습니다. 이제는 개발자로서 여러분과 함께 새로운 시작을 하려고
+              합니다. 서로에게 동기부여가 되는 동료로 남고 싶습니다.
+            </p>
+          </div>
+        </div>
+        <div id="goals">
+          <h3>Goals</h3>
+          <p>
+            현재 목표는 풀스택 개발자가 되는 것입니다. 프론트 엔드 개발자로
+            시작하여, <br />
+            멀지 않은 미래엔 백엔드까지 소화할 수 있는 개발자가 되고
+            싶습니다.<br />
+            위코드의 교육 과정을 통해 최선의 방법을 찾길 기대하고 있습니다.<br />
+            프론트, 백엔드, 모바일까지 관심을 갖고 있고, 아래의 언어들을 배우는
+            것에 관심이 있습니다.
+          </p>
+          <ul style="font-weight: bolder">
+            <li>Javascript</li>
+            <li>html/css</li>
+            <li>React</li>
+            <li>NodeJS</li>
+            <li>Swift, Python, Rust...etc</li>
+          </ul>
+        </div>
+        <div id="works">
+          <h3>Works</h3>
+          <div class="justBox">
+            <div class="container" style="overflow: hidden">
+              <div class="imagebox" style="width: 400vw">
+                <a href="gallery.html">
+                  <div class="inner" style="width: 100vw">
+                    <img src="exports/color (6).jpg" />
+                  </div>
+                  <div class="inner" style="width: 100vw">
+                    <img src="exports/bnw (12).jpg" />
+                  </div>
+                  <div class="inner" style="width: 100vw">
+                    <img src="exports/bnw (11).jpg" />
+                  </div>
+                  <div class="inner" style="width: 100vw">
+                    <img src="exports/bnw (7).jpg" />
+                  </div>
+                  <div class="inner" style="width: 100vw">
+                    <img src="exports/bnw (16).jpg" />
+                  </div>
+                  <div class="inner" style="width: 100vw">
+                    <img src="exports/bnw (14).jpg" />
+                  </div>
+                  <div class="inner" style="width: 100vw">
+                    <img src="exports/color (8).jpg" />
+                  </div>
+                </a>
+              </div>
+              <div class="buttons">
+                <button class="move-left">←</button>
+                <button class="move-right">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cv">
+          <h3>CV</h3>
+          <ul style="list-style-type: none">
+            <li>2021 산책자와 협잡꾼 - 2인전, 갤러리 레퍼런스, 서울</li>
+            <li>2019 한국예술종합학교 조형예술과 졸업 전시</li>
+            <li>2018 ELEMENT 개인전, 스페이스 55, 서울</li>
+            <li>
+              2017 캐논-박건희 문화재단 미래작가상 10주년, 캐논 갤러리, 서울
+            </li>
+            <li>2017 판단유보 BAMA 2017 사진 특별전, Bexco, 부산</li>
+            <li>2016 미래작가상, 캐논 갤러리, 서울</li>
+            <li>2016 Open-ended, 서학 갤러리, 전주</li>
+            <li>2016 더 스크랩, 서울</li>
+          </ul>
+        </div>
+        <div id="education">
+          <h3>Education</h3>
+          <p>2019 한국예술종합학교 조형예술과 학사 졸업</p>
+        </div>
+        <div id="contacts">
+          <a id="Contact"><h3>Contacts</h3></a>
+          <ul style="list-style-type: none">
+            <li>e mail : leetekwoo@gmail.com</li>
+            <li>github : github.com/0teklee</li>
+            <li>blog : 0teklee.github.io/</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <a id="top" href="#headerImg" style="color: #000000">top</a>
+    </footer>
+  </body>
+</html>

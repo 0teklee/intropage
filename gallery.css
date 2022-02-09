@@ -92,3 +92,30 @@ nav a:hover {
   flex-direction: column;
   font-size: x-small;
 }
+
+@media (max-width: 800px) {
+  .box {
+    flex-direction: column-reverse;
+  }
+
+  .index {
+    width: 100vw;
+    margin-left: 2vw;
+    margin-right: 3vw;
+    height: 0vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .imagebox {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+  .inner img {
+    margin-left: 2vw;
+    width: 80vw;
+    display: block;
+    text-align: center;
+  }
+} ;

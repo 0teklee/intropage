@@ -478,4 +478,14 @@ footer a {
     text-align: center;
     font-size: small;
   }
+
+  footer {
+    display: block;
+    text-align: center;
+    background-color: rgba(107, 107, 107, 0.295);
+    height: 2em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+  }
 }

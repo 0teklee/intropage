@@ -11,6 +11,7 @@ header {
   position: relative;
   height: 2em;
   margin-left: 2vw;
+  margin-top: 1vw;
 }
 
 .box {
@@ -23,6 +24,7 @@ header {
   width: 20%;
   margin-left: 2vw;
   margin-right: 3vw;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -107,7 +107,7 @@ function updateCategory() {
       "vw";
   } else if (indexDiv.style.display == "") {
     imagebox.style.width = parseFloat(inner.style.width) + "vw";
-  } else {
+  } else if (contactsDiv.style.display == "") {
     imagebox.style.width = parseFloat(inner.style.width) + "vw";
   }
 }

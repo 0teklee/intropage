@@ -27,15 +27,23 @@
     <header style="background-color: #6b6b6b4b">
       <a class="headerLink" style="color: #000000">👨‍💻Tekwoo Lee</a>
       <div id="right">
-        <a class="headerLink" style="color: #000000"> Table </a>
-        <a
-          class="headerLink"
-          href="#contacts"
-          onclick="contactsOn()"
-          style="color: #000000"
-        >
-          Contact</a
-        >
+        <div class="tableWrap">
+          <ul class="dep1">
+            <li>
+              <a href="#" class="headerLink" style="color: #000000">Table</a>
+              <ul class="dep2"> 
+                <li><a href="#">Introduce</a></li>
+                <li><a href="#">Goals</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">CV</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Comments</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="headerLink" href="gallery.html" style="color: #000000">
+          Contacts</a>
         <!-- <button>view mode</button> -->
         <a class="headerLink" style="color: #000000">View Mode</a>
         <div class="viewMode">
@@ -136,18 +144,39 @@
           <h3>Education</h3>
           <p>2019 한국예술종합학교 조형예술과 학사 졸업</p>
         </div>
-        <div id="contacts">
-          <a id="Contact"><h3>Contacts</h3></a>
-          <ul style="list-style-type: none">
-            <li>e mail : leetekwoo@gmail.com</li>
-            <li>github : github.com/0teklee</li>
-            <li>blog : 0teklee.github.io/</li>
-          </ul>
-        </div>
+        <div id="comments">
+          <h3>comments</h3>
+          <p>
+        <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://leetekwoo.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      </p> 
+
       </div>
+      </div>
+      
     </section>
     <footer>
       <a id="top" href="#headerImg" style="color: #000000">top</a>
     </footer>
+    
   </body>
 </html>
+

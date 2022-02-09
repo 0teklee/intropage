@@ -438,7 +438,7 @@ footer a {
 
   .imagebox {
     transition: transform 0.9s;
-    margin-left: 10vw;
+    margin-left: 20vw;
   }
 
   .inner {
@@ -447,8 +447,9 @@ footer a {
 
   .inner img {
     margin-left: 2vw;
-    height: auto;
-    width: 30%;
+    width: 60vw;
+    display: block;
+    text-align: center;
   }
 
   #works .justbox {

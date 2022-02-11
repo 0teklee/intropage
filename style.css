@@ -55,14 +55,10 @@ header a {
   border: 0.1px dotted #b1b1b47a;
 }
 
-.tableWrap .dep1 {
-  /* display: inline-block;
-  font-size: 0; */
-}
-
 .tableWrap .dep1 > li > a {
   display: block;
   padding: 10px 0;
+  position: relative;
 }
 
 /* 2가지 문제 : 
@@ -72,7 +68,8 @@ header a {
 
 .tableWrap .dep1 > li:hover > .dep2 {
   display: block;
-  margin-top: 13rem;
+  position: absolute;
+  top: 2rem;
 }
 
 .tableWrap .dep1 > li {
